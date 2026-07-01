@@ -1,0 +1,86 @@
+*** Message Type: info ***
+When: Tue Jun 30 19:11:21 KST 2026
+SimVision started.
+Version: TOOL:  simvision(64)   22.03-s012
+User: hah002
+Host: localhost
+Platform: Linux/x86_64/3.10.0-1160.el7.x86_64
+Started: Tue Jun 30 19:11:21 KST 2026
+Command: /tools/cadence/XCELIUM2203/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:localhost:38214 -64BIT
+Work Directory: /home/hah002/Basic_SoC_implementation/2_SIM/4_SAMPLE
+ 
+*** Message Type: info ***
+When: Tue Jun 30 19:11:22 KST 2026
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Tue Jun 30 19:11:25 KST 2026
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Tue Jun 30 19:11:26 KST 2026
+Exit Simulator: abnormal
+      Design: Unknown
+   Languages: Unknown
+   Simulator: Unknown
+     Version: Unknown
+        User: Unknown
+        Host: Unknown
+Time Started: Unknown
+  Process ID: Unknown
+   Directory: Unknown
+     Command: Unknown
+
+ 
+*** Message Type: error ***
+When: Tue Jun 30 19:11:26 KST 2026
+Simulator Crashed:
+      Design: Unknown
+   Languages: Unknown
+   Simulator: Unknown
+     Version: Unknown
+        User: Unknown
+        Host: Unknown
+Time Started: Unknown
+  Process ID: Unknown
+   Directory: Unknown
+     Command: Unknown
+      Design: Unknown
+   Languages: Unknown
+   Simulator: Unknown
+     Version: Unknown
+        User: Unknown
+        Host: Unknown
+Time Started: Unknown
+  Process ID: Unknown
+   Directory: Unknown
+     Command: Unknown
+
+Outstanding STRAP Requests:
+        strap::get g . -ck
+        strap::get g . -sa
+        strap::get g . -xu
+ 
+*** Message Type: info ***
+When: Tue Jun 30 19:11:26 KST 2026
+Connect to Simulator
+      Design: Unknown
+   Languages: Unknown
+   Simulator: Unknown
+     Version: Unknown
+        User: Unknown
+        Host: Unknown
+Time Started: Unknown
+  Process ID: Unknown
+   Directory: Unknown
+     Command: Unknown
+
+ 
+*** Message Type: info ***
+When: Tue Jun 30 19:11:27 KST 2026
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Tue Jun 30 19:11:35 KST 2026
+SimVision Exit.
+ 

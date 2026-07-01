@@ -1,0 +1,106 @@
+*** Message Type: info ***
+When: Fri Jun 26 01:07:00 KST 2026
+SimVision started.
+Version: TOOL:  simvision(64)   22.03-s012
+User: hah002
+Host: localhost
+Platform: Linux/x86_64/3.10.0-1160.el7.x86_64
+Started: Fri Jun 26 01:07:00 KST 2026
+Command: /tools/cadence/XCELIUM2203/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:localhost:57969 -64BIT
+Work Directory: /home/hah002/Basic_SoC_implementation/2_SIM/4_SAMPLE
+ 
+*** Message Type: info ***
+When: Fri Jun 26 01:07:00 KST 2026
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Fri Jun 26 01:07:03 KST 2026
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Fri Jun 26 01:07:04 KST 2026
+Connect to Simulator
+      Design: tb_pipeline
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       22.03-s012
+        User: hah002
+        Host: localhost
+Time Started: Fri Jun 26 01:06:58 KST 2026
+  Process ID: 170233
+   Directory: /home/hah002/Basic_SoC_implementation/2_SIM/4_SAMPLE
+     Command: xmsim -MESS tb_pipeline -gui
+
+ 
+*** Message Type: info ***
+When: Fri Jun 26 01:07:05 KST 2026
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Fri Jun 26 01:07:54 KST 2026
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Fri Jun 26 01:09:33 KST 2026
+Create source window: "Source Browser 1"
+ 
+*** Message Type: info ***
+When: Fri Jun 26 01:09:36 KST 2026
+Delete waveform window: "Waveform 1"
+ 
+*** Message Type: error ***
+When: Fri Jun 26 01:09:37 KST 2026
+invalid command name "::timeaxis3"
+    while executing
+"$_timeaxis convert t2exp $time"
+    (method "::WaveWindow::seeTime" body line 2)
+    invoked from within
+"seeTime [$itk_option(-markerdata) marker cget  $itk_option(-markerprimary) -time]"
+    (method "::WaveWindow::_doGotoCause" body line 59)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+       @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 41 86 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 41 86 -double}"
+    (command bound to event)
+ 
+*** Message Type: info ***
+When: Fri Jun 26 01:09:42 KST 2026
+Delete source window: "Source Browser 1"
+ 
+*** Message Type: info ***
+When: Fri Jun 26 01:09:45 KST 2026
+Create waveform window: "Waveform 2"
+ 
+*** Message Type: info ***
+When: Fri Jun 26 01:29:21 KST 2026
+Exit XM-Sim: user
+      Design: tb_pipeline
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       22.03-s012
+        User: hah002
+        Host: localhost
+Time Started: Fri Jun 26 01:06:58 KST 2026
+  Process ID: 170233
+   Directory: /home/hah002/Basic_SoC_implementation/2_SIM/4_SAMPLE
+     Command: xmsim -MESS tb_pipeline -gui
+
+ 
+*** Message Type: info ***
+When: Fri Jun 26 01:29:21 KST 2026
+SimVision Exit.
+ 
