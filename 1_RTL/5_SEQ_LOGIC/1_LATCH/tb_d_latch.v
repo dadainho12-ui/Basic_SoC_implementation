@@ -9,10 +9,10 @@ wire[31:0]	o_q	;
 d_latch DUT(
 	.i_d	(i_d),
 	.clk	(clk),
-	.o_q	(o_q),
+	.o_q	(o_q)
 );
 
-always #5 clk = ~clk
+always #5 clk = ~clk;
 
 initial begin
 	clk = 1'b0	;

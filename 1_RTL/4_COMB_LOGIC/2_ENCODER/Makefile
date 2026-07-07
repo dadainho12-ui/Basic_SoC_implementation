@@ -9,9 +9,9 @@ set:
 compile:  
 	xmvlog -MESS -linedebug ./*v
 elab: 
-	xmelab -MESS -access rwc tb_mux
+	xmelab -MESS -access rwc tb_interrupt_controller
 sim: 
-	xmsim -MESS tb_mux 
+	xmsim -MESS tb_interrupt_controller
 all: 	clean set compile elab sim
 
 

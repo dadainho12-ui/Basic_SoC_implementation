@@ -1,7 +1,7 @@
 set_db init_lib_search_path /home/hah002/Basic_SoC_implementation/3_SYN/1_LIB
-set_db init_hdl_search_path /home/hah002/Basic_SoC_implementation/1_RTL/4_COMB_LOGIC/1_MUX
+set_db init_hdl_search_path /home/hah002/Basic_SoC_implementation/1_RTL/4_COMB_LOGIC/3_DECODER
 read_libs slow_vdd1v0_basicCells.lib
-read_hdl mux.v
+read_hdl bcd_to_7seg.v
 
 elaborate
 

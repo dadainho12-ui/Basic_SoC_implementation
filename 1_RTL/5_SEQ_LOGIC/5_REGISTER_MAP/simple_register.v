@@ -25,7 +25,7 @@ always @(posedge clk or negedge rst_n) begin
 	end
 end
 
-assgin o_rdata = r_reg32		;
+assign o_rdata = r_reg32		;
 
 	
 endmodule

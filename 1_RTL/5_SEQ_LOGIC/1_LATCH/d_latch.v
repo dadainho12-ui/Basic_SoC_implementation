@@ -3,7 +3,7 @@
 module d_latch(
 	i_d,
 	 clk,
-	_q  
+	o_q  
 );
 
 input [31:0] i_d	;

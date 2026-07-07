@@ -9,9 +9,9 @@ set:
 compile:  
 	xmvlog -MESS -linedebug ./*v
 elab: 
-	xmelab -MESS -access rwc tb_mux
+	xmelab -MESS -access rwc tb_bcd_to_7seg
 sim: 
-	xmsim -MESS tb_mux 
+	xmsim -MESS tb_bcd_to_7seg
 all: 	clean set compile elab sim
 
 
