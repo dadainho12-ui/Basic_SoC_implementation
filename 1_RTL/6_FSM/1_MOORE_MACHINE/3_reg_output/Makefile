@@ -9,9 +9,9 @@ set:
 compile:  
 	xmvlog -MESS -linedebug ./*v
 elab: 
-	xmelab -MESS -access rwc tb_FSM2
+	xmelab -MESS -access rwc tb_FSM3
 sim: 
-	xmsim -MESS tb_FSM2 -gui
+	xmsim -MESS tb_FSM3 -gui
 all: 	clean set compile elab sim
 
 
