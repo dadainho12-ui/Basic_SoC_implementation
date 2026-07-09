@@ -1,11 +1,11 @@
-set_db init_lib_search_path ../../1_LIB
-set_db init_hdl_search_path ../../4_SAMPLE_RTL
+set_db init_lib_search_path /home/hah002/Basic_SoC_implementation/3_SYN/1_LIB
+set_db init_hdl_search_path /home/hah002/Basic_SoC_implementation/1_RTL/4_COMB_LOGIC/1_MUX
 read_libs slow_vdd1v0_basicCells.lib
-read_hdl counter.v
+read_hdl mux.v
 
 elaborate
 
-read_sdc ../../2_CONSTRAINTS/sample.sdc
+read_sdc /home/hah002/Basic_SoC_implementation/3_SYN/2_CONSTRAINTS/sample.sdc
 set_db syn_generic_effort medium
 set_db syn_map_effort medium
 set_db syn_opt_effort medium
